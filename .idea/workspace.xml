@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b9fb69fb-2dd7-4aae-a262-61d4f79a2434" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1f3O6NBsHavLKXYtkAhrcnXCy3q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\SAP_Test" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sap.app.utility" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\SAP_Test\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestPages">
+    <configuration name="SignUpPageTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sap.app.testcases.SignUpPageTest" />
+      <module name="SAP_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sap.app.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignUpPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SAP_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sap.app.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sap.app.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.sap.app.testcases.SignUpPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignUpPageTest.ClickOnSignUpButton" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SAP_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sap.app.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sap.app.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.sap.app.testcases.SignUpPageTest" />
+      <option name="METHOD_NAME" value="ClickOnSignUpButton" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPages" type="TestNG" nameIsGenerated="true">
+      <module name="SAP_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sap.app.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.sap.app.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.sap.app.testcases.TestPages" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.SignUpPageTest" />
+        <item itemvalue="Application.SignUpPageTest" />
+        <item itemvalue="TestNG.SignUpPageTest.ClickOnSignUpButton" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9fb69fb-2dd7-4aae-a262-61d4f79a2434" name="Default Changelist" comment="" />
+      <created>1595443133745</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595443133745</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="402" y="45" key="#TestPages" timestamp="1595496588015">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="402" y="45" key="#TestPages/0.0.1366.728@0.0.1366.728" timestamp="1595496588015" />
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595496439329">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1595496439329" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1595495603012">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595495603012" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1595495603012">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595495603012" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1595495603011">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595495603011" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1595495603012">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595495603012" />
+    <state x="263" y="103" key="IDE.errors.dialog" timestamp="1595443584580">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="103" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1595443584580" />
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1595485025665">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1595485025665" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1595450662608">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1595450662608" />
+  </component>
+</project>
