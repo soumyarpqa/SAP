@@ -4,7 +4,9 @@ import com.sap.app.base.BaseClass;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebElement;
 
+import java.awt.*;
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -64,4 +66,5 @@ public class Utility extends BaseClass {
         return path;
 
     }
+
 }

@@ -1,11 +1,5 @@
 package com.sap.app.utility;
 
-/*
- * 
- * Listener Class used to generate Extent Report
- * 
- * */
-
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
@@ -34,10 +28,10 @@ public class Reporting extends TestListenerAdapter
 		
 	public void onStart(ITestContext testContext)
 	{
-		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());//time stamp
+		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 		String repName="Test-Report-"+timeStamp+".html";
 		
-		htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+ "/Reports/"+repName);//specify location of the report
+		htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+ "/Reports/"+repName);
 		htmlReporter.loadXMLConfig(System.getProperty("user.dir")+ "/extent-config.xml");
 		
 		extent=new ExtentReports();
@@ -55,40 +49,27 @@ public class Reporting extends TestListenerAdapter
 	
 	public void onTestSuccess(ITestResult tr)
 	{
-		logger=extent.createTest(tr.getName()); // create new entry in the report
-		logger.log(Status.PASS,MarkupHelper.createLabel(tr.getName(),ExtentColor.GREEN)); // send the passed information to the report with GREEN color highlighted
+		logger=extent.createTest(tr.getName());
+		logger.log(Status.PASS,MarkupHelper.createLabel(tr.getName(),ExtentColor.GREEN));
 	}
 	
 	public void onTestFailure(ITestResult tr)
 	{
-		logger=extent.createTest(tr.getName()); // create new entry in the report
-		logger.log(Status.FAIL,MarkupHelper.createLabel(tr.getName(),ExtentColor.RED)); // send the passed information to the report with GREEN color highlighted
-		
-		//String screenshotPath=System.getProperty("user.dir")+"\\Screenshots\\"+tr.getName()+".png";
-		
-		//File f = new File(screenshotPath);
-		
-		//if(f.exists())
-	//	if(tr.getStatus()==ITestResult.FAILURE)
-		//{
+		logger=extent.createTest(tr.getName());
+		logger.log(Status.FAIL,MarkupHelper.createLabel(tr.getName(),ExtentColor.RED));
 		try {
 			String temp=Utility.captureScreenShot(tr.getMethod().getMethodName());
 			logger.fail(tr.getThrowable().getMessage(), MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
-		//	logger.fail("Screenshot is below:" + logger.addScreenCaptureFromPath(screenshotPath));
-			} 
+			}
 		catch (IOException e) 
 				{
 				e.printStackTrace();
 				}
-		//}*/
-		/*System.out.println("Take fail screenshot");
-		Utility.captureScreenShot(tr.getMethod().getMethodName());*/
-		
 	}
 	
 	public void onTestSkipped(ITestResult tr)
 	{
-		logger=extent.createTest(tr.getName()); // create new entry in th report
+		logger=extent.createTest(tr.getName());
 		logger.log(Status.SKIP,MarkupHelper.createLabel(tr.getName(),ExtentColor.ORANGE));
 	}
 	
